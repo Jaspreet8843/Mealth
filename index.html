@@ -9,10 +9,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
     <link rel="stylesheet" href="scripts/style.css"/>
+    <script src="scripts/script.js"></script>
     <title>HOME</title>
 </head>
 <body style="overflow-x: hidden;">
-    <nav class="navbar navbar-expand-lg navbar-light py-0" style="background-color:#D5c7ba">
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-light fixed-top py-0" style="background-color:#D5c7ba;">
         <div class="container-fluid">
           <a class="navbar-brand" href="#"><img class="mx-md-5" src="static/LOGO.png" style="width:calc(60px + 3vw);"/></a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
@@ -20,17 +21,17 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div class="navbar-nav">
-              <a class="nav-link px-4 active" aria-current="page" href="#"><h3><b>Home</b></h3></a>
-              <a class="nav-link px-4" href="#howItWorks"><h3><b>How It Works</b></h3></a>
-              <a class="nav-link px-4" href="#aboutUs"><h3><b>About us</b></h3></a>
-              <a class="nav-link px-4" href="#contactUs"><h3><b>Contact us</b></h3></a>
+              <a class="nav-link px-4 active" aria-current="page" href="#"><h3>Home</h3></a>
+              <a class="nav-link px-4" href="#howItWorks"><h3>How It Works</h3></a>
+              <a class="nav-link px-4" href="#aboutUs"><h3>About us</h3></a>
+              <a class="nav-link px-4" href="#contactUs"><h3>Contact us</h3></a>
             </div>
           </div>
         </div>
       </nav>
 
-      <div class="p-5" style="background-image: url('static/home-bg.png');">
-        <h1 class="text-center mt-5" style="font-size: calc(20px + 4vw);"><b>Welcome to Mealth!</b></h1>
+      <div class="p-5 mt-5" style="background-image: url('static/home-bg.png');">
+        <h1 class="text-center mt-5 pt-3" style="font-size: calc(20px + 4vw);"><b>Welcome to Mealth!</b></h1>
         <h2 class="col-xl-5 p-5" style="font-size: calc(14px + 1.2vw);">
           <b>
           Congratulations! <br>
