@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 * {
     font-family: 'Source Sans Pro', sans-serif;
+    border-radius: 0;
+    border: none;
 }
 
 #navbar {
@@ -9,4 +11,90 @@
     top: 0; /* Stay on top */
     width: 100%; /* Full width */
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+
+  span{
+      color: black;
+      font-size: 1.3rem;
+  }
+
+  .title{
+      margin: 1rem 0rem 0rem 0rem;
+      padding: 0rem;
+  }
+
+  .card{
+      border: 1px solid black;
+      display: flex;
+      flex-direction: row;
+  }
+
+  .card img{
+      width: 30%;
+  }
+
+  .card-flex{
+      display: flex;
+      justify-content: space-between;
+  }
+
+  .form-style{
+    color: black;
+    font-weight: bold;
+    font-size: 1.1rem;
+}
+
+.input-styles{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+}
+
+input:focus { 
+    outline: none !important;
+}
+
+textarea:focus { 
+    outline: none !important;
+}
+
+.def-btn{
+    outline: none;
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: #675763;
+}
+
+  /* Breakpoints: 576, 576, 768, 992, 1200, 1400 */
+
+  @media(max-width:576px){
+    .card img{
+        width: 80%;
+    }
+}
+
+  @media(max-width:992px){
+      .card-flex{
+          justify-content: center;
+      }
+      li{
+          text-align: start;
+      }
+      #professionals{
+          padding: 0rem;
+      }
+  }
+
+
+  @media(max-width:1200px){
+    .hide-view{
+        display: none;
+        visibility: hidden;
+      }
+      #more{
+          margin-top: 3rem;
+      }
   }
