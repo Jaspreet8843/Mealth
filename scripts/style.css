@@ -68,11 +68,18 @@ textarea:focus {
     background-color: #675763;
 }
 
+#cover-div{
+    background-image: url('../static/home-bg.png');
+}
+
   /* Breakpoints: 576, 576, 768, 992, 1200, 1400 */
 
   @media(max-width:576px){
     .card img{
         width: 80%;
+    }
+    #cover-div{
+        background-image: url('../static/home-bg-mobile.jpg');
     }
 }
 
@@ -97,4 +104,12 @@ textarea:focus {
       #more{
           margin-top: 3rem;
       }
+  }
+
+  a:link{
+      color: black;
+  }
+
+  .black{
+      color: black;
   }
